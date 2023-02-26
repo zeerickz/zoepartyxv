@@ -1,0 +1,88 @@
+body{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+.container{
+    height: 100vw;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    max-width: 1750px;
+    min-width: 330px;
+}
+.imagenes{
+    margin: auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    max-height: 1800px;
+}
+.portada{
+    height: 350px;
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+.boton{
+    display: flex;
+    margin: auto;
+    height: 50px;
+    width: 90%;
+    background-color: #833948;
+    text-align: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+.boton a{
+    color: #000000;
+    text-decoration: none;
+ 
+}
+.boton:hover{
+    background-color: #CA7D8F;
+    color: white;
+}
+.boton:hover a{
+    color: #ffffff;
+}
+.contador p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+}
+.musica{
+    display: flex;
+    height: 150px;
+    align-items: center;
+    background-color: #833948;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.musica button{
+    padding: 10px 15px;
+    background-color: #CA7D8F;
+    color: #ffffff;
+    border: none;
+    justify-content: space-evenly;
+}
+.btn1{
+        background-image:url('/Gifts/play-button.png');
+        background-repeat:no-repeat;
+        height:60px;
+        width:70px;
+        background-size: 50px 50px;
+        background-position: center;
+}
+.btn2{
+    background-image:url('/Gifts/pause.png');
+        background-repeat:no-repeat;
+        height:60px;
+        width:70px;
+        background-size: 50px 50px;
+        background-position: center;
+}
